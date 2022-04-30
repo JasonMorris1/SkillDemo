@@ -11,8 +11,8 @@ public class SkillDemo
             for (int j = i + 1; j < nums.length; j++)
             {
                 if (nums[i] + nums[j] == target){
-                    output[0] = nums[i];
-                    output[1] = nums[j];
+                    output[0] = i;
+                    output[1] = j;
                     return output;
                 }
             }
